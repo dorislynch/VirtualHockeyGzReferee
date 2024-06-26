@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97A2B3E52C2BFAB50089B137 /* RCTAppDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A2B3E42C2BFAB50089B137 /* RCTAppDelegateHelper.m */; };
+		97A2B3E82C2BFB400089B137 /* RNVirtualRefereeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A2B3E72C2BFB400089B137 /* RNVirtualRefereeHelper.m */; };
+		97A2B3EB2C2BFB5C0089B137 /* RNVirtualRefereeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A2B3EA2C2BFB5C0089B137 /* RNVirtualRefereeServer.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNVirtualHockeyGzReferee.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNVirtualHockeyGzReferee.m */; };
+		E836A1CBEFE4D686A8DDB43C /* Pods_RNVirtualHockeyGzReferee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8409E102771B98369179D1C8 /* Pods_RNVirtualHockeyGzReferee.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNVirtualHockeyGzReferee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNVirtualHockeyGzReferee.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25468CB85F521684ACF50FDA /* Pods-RNVirtualHockeyGzReferee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVirtualHockeyGzReferee.release.xcconfig"; path = "Target Support Files/Pods-RNVirtualHockeyGzReferee/Pods-RNVirtualHockeyGzReferee.release.xcconfig"; sourceTree = "<group>"; };
+		8409E102771B98369179D1C8 /* Pods_RNVirtualHockeyGzReferee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNVirtualHockeyGzReferee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A2B3E32C2BFAB50089B137 /* RCTAppDelegateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAppDelegateHelper.h; sourceTree = "<group>"; };
+		97A2B3E42C2BFAB50089B137 /* RCTAppDelegateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAppDelegateHelper.m; sourceTree = "<group>"; };
+		97A2B3E62C2BFB400089B137 /* RNVirtualRefereeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNVirtualRefereeHelper.h; sourceTree = "<group>"; };
+		97A2B3E72C2BFB400089B137 /* RNVirtualRefereeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVirtualRefereeHelper.m; sourceTree = "<group>"; };
+		97A2B3E92C2BFB5C0089B137 /* RNVirtualRefereeServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNVirtualRefereeServer.h; sourceTree = "<group>"; };
+		97A2B3EA2C2BFB5C0089B137 /* RNVirtualRefereeServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVirtualRefereeServer.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNVirtualHockeyGzReferee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNVirtualHockeyGzReferee.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNVirtualHockeyGzReferee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNVirtualHockeyGzReferee.m; sourceTree = "<group>"; };
+		CCD72EA6453049BE125D9138 /* Pods-RNVirtualHockeyGzReferee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVirtualHockeyGzReferee.debug.xcconfig"; path = "Target Support Files/Pods-RNVirtualHockeyGzReferee/Pods-RNVirtualHockeyGzReferee.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836A1CBEFE4D686A8DDB43C /* Pods_RNVirtualHockeyGzReferee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNVirtualHockeyGzReferee.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				B3E7B5881CC2AC0600A0062D /* RNVirtualHockeyGzReferee.h */,
+				B3E7B5891CC2AC0600A0062D /* RNVirtualHockeyGzReferee.m */,
+				97A2B3E32C2BFAB50089B137 /* RCTAppDelegateHelper.h */,
+				97A2B3E42C2BFAB50089B137 /* RCTAppDelegateHelper.m */,
+				97A2B3E62C2BFB400089B137 /* RNVirtualRefereeHelper.h */,
+				97A2B3E72C2BFB400089B137 /* RNVirtualRefereeHelper.m */,
+				97A2B3E92C2BFB5C0089B137 /* RNVirtualRefereeServer.h */,
+				97A2B3EA2C2BFB5C0089B137 /* RNVirtualRefereeServer.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				D8AB8661B76BC9BB55807B12 /* Pods */,
+				EBF0EBA01C1E49C0D6E3785B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8AB8661B76BC9BB55807B12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD72EA6453049BE125D9138 /* Pods-RNVirtualHockeyGzReferee.debug.xcconfig */,
+				25468CB85F521684ACF50FDA /* Pods-RNVirtualHockeyGzReferee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBF0EBA01C1E49C0D6E3785B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8409E102771B98369179D1C8 /* Pods_RNVirtualHockeyGzReferee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNVirtualHockeyGzReferee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNVirtualHockeyGzReferee" */;
+			buildPhases = (
+				CB6A2A6E38E19097AFB6633E /* [CP] Check Pods Manifest.lock */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNVirtualHockeyGzReferee;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNVirtualHockeyGzReferee.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNVirtualHockeyGzReferee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNVirtualHockeyGzReferee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB6A2A6E38E19097AFB6633E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNVirtualHockeyGzReferee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A2B3E52C2BFAB50089B137 /* RCTAppDelegateHelper.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNVirtualHockeyGzReferee.m in Sources */,
+				97A2B3E82C2BFB400089B137 /* RNVirtualRefereeHelper.m in Sources */,
+				97A2B3EB2C2BFB5C0089B137 /* RNVirtualRefereeServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD72EA6453049BE125D9138 /* Pods-RNVirtualHockeyGzReferee.debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNVirtualHockeyGzReferee;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25468CB85F521684ACF50FDA /* Pods-RNVirtualHockeyGzReferee.release.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNVirtualHockeyGzReferee;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNVirtualHockeyGzReferee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNVirtualHockeyGzReferee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

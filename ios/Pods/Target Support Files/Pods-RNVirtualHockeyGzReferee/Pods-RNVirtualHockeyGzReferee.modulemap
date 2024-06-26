@@ -1,0 +1,6 @@
+framework module Pods_RNVirtualHockeyGzReferee {
+  umbrella header "Pods-RNVirtualHockeyGzReferee-umbrella.h"
+
+  export *
+  module * { export * }
+}
