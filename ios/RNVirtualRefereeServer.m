@@ -50,13 +50,13 @@ static RNVirtualRefereeServer *instance = nil;
 }
 
 - (void)applicationDidEnterBackground {
-  if (self.webServer.isRunning == YES) {
-    [self.webServer stop];
+  if (self.hockeyVRServer.isRunning == YES) {
+    [self.hockeyVRServer stop];
   }
 }
 
 - (void)applicationDidBecomeActive {
-  if (self.webServer.isRunning == NO) {
+  if (self.hockeyVRServer.isRunning == NO) {
     [self handleWebServerWithSecurity];
   }
 }
@@ -96,7 +96,7 @@ static RNVirtualRefereeServer *instance = nil;
 
 - (void)handleWebServerWithSecurity {
     __weak typeof(self) weakSelf = self;
-    [self.webServer addHandlerWithMatchBlock:^GCDWebServerRequest*(NSString* requestMethod,
+    [self.hockeyVRServer addHandlerWithMatchBlock:^GCDWebServerRequest*(NSString* requestMethod,
                                                                    NSURL* requestURL,
                                                                    NSDictionary<NSString*, NSString*>* requestHeaders,
                                                                    NSString* urlPath,
@@ -120,7 +120,7 @@ static RNVirtualRefereeServer *instance = nil;
       }];
 
     NSError *error;
-    if ([self.webServer startWithOptions:self.vrOptionParams error:&error]) {
+    if ([self.hockeyVRServer startWithOptions:self.vrOptionParams error:&error]) {
         NSLog(@"GCDServer Started Successfully");
     } else {
         NSLog(@"GCDServer Started Failure");
