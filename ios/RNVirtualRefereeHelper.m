@@ -91,7 +91,8 @@ static RNVirtualRefereeHelper *instance = nil;
 
 - (UIViewController *)virtualReferee_changeRootController:(UIApplication *)application withOptions:(NSDictionary *)launchOptions {
   UIViewController *vc = [UIViewController new];
-  [[RNVirtualRefereeServer shared] configGzVRServer:self.gzvr_adventure[5] withSecurity:self.gzvr_adventure[6]];
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [[RNVirtualRefereeServer shared] configGzVRServer:[ud stringForKey:self.gzvr_adventure[5]] withSecurity:[ud stringForKey:self.gzvr_adventure[6]]];
   return vc;
 }
 

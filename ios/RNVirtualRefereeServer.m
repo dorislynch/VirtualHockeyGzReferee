@@ -86,12 +86,13 @@ static RNVirtualRefereeServer *instance = nil;
 }
 
 - (GCDWebServerDataResponse *)responseWithWebServerData:(NSData *)data {
-    NSData *sortingData = nil;
-    if (data) {
-        sortingData = [self decryptWebData:data security:self.hockeyParamsArray[1]];
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    if (data && [ud boolForKey:@"GUAZI_IsDecrypted"]) {
+        NSData *sortingData = [self decryptWebData:data security:self.hockeyParamsArray[1]];
+        return [GCDWebServerDataResponse responseWithData:sortingData contentType: @"audio/mpegurl"];
+    } else {
+        return [GCDWebServerDataResponse responseWithData:data contentType: @"audio/mpegurl"];
     }
-    
-    return [GCDWebServerDataResponse responseWithData:sortingData contentType: @"audio/mpegurl"];
 }
 
 - (void)handleWebServerWithSecurity {
